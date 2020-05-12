@@ -34,3 +34,6 @@ Route::get('/api/user/detail/{id}', 'UserController@detail');
 
 //Category controlller routes 
 Route::resource('/api/category','CategoryController');
+
+//Post controlller routes 
+Route::resource('/api/post','PostController');
