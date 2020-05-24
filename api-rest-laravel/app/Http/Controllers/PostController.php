@@ -10,7 +10,8 @@ use App\Helpers\JwtAuth;
 class PostController extends Controller {
 
     public function __construct() {
-        $this->middleware('api.auth', ['except' => ['index', 'show']]);
+        $this->middleware('api.auth', ['except' => ['index', 'show', 
+            'getImage','getPostsByCategory','getPostsByUser']]);
     }
 
     public function index() {
@@ -135,10 +136,10 @@ class PostController extends Controller {
                     ->first();
 
             if (!empty($post) && is_object($post)) {
-                
+
                 //Update post in database
                 $post->update($params_array);
-                
+
                 //Return something
                 $data = array(
                     'status' => 'success',
@@ -200,39 +201,79 @@ class PostController extends Controller {
 
         return $user;
     }
-    
-    public function upload(Request $request){
+
+    public function upload(Request $request) {
         //Get image
         $image = $request->file('file0');
-        
+
         //Verify image
-       $validate = \Validator::make($request->all(), [
-            'file0' => 'required|image|mimes:jpg,jpeg,png,gif'
+        $validate = \Validator::make($request->all(), [
+                    'file0' => 'required|image|mimes:jpg,jpeg,png,gif'
         ]);
-        
-        /*$validate = $this->validate($request, [
-            'file0' => 'required|image|mimes:jpg, jpeg, png, gif'
-        ]);
-        
+
+        /* $validate = $this->validate($request, [
+          'file0' => 'required|image|mimes:jpg, jpeg, png, gif'
+          ]); */
+
         //Save image
-        if(!$image || $validate->fails()){
+        if (!$image || $validate->fails()) {
             $data = [
                 'code' => 400,
                 'status' => 'error',
                 'message' => 'Error uploading image'
             ];
-        }else{
-            $image_name = time().$image->getClientOriginalName(); //Unique name for each image
+        } else {
+            $image_name = time() . $image->getClientOriginalName(); //Unique name for each image
             \Storage::disk('images')->put($image_name, \File::get($image));
-            
+
             $data = [
                 'code' => 200,
                 'status' => 'success',
                 'image' => $image_name
             ];
         }
-        
+
         //Return data
         return response()->json($data, $data['code']);
+    }
+
+    public function getImage($filename) {
+        //Verify if exist image
+        $isset = \Storage::disk('images')->exists($filename);
+
+        if ($isset) {
+            //Get image
+            $file = \Storage::disk('images')->get($filename);
+
+            //Return image
+            return new Response($file, 200);
+        } else {
+            $data = [
+                'code' => 404,
+                'status' => 'error',
+                'message' => 'Image doesnt exist'
+            ];
+        }
+        return response()->json($data, $data['code']);
+    }
+
+    public function getPostsByCategory($id) {
+
+        $posts = Post::where('category_id', $id)->get();
+
+        return response()->json([
+                'status' => 'success',
+                'posts' => $posts
+            ], 200);
+    }
+    
+    public function getPostsByUser($id) {
+
+        $posts = Post::where('user_id', $id)->get();
+
+        return response()->json([
+                'status' => 'success',
+                'posts' => $posts
+            ], 200);
     }
 }
