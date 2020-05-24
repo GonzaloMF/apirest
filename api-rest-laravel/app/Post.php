@@ -8,11 +8,16 @@ class Post extends Model
 {
     protected $table = 'posts';
     
-    //Muchos post pueden ser creados por un usuario
+    
+    protected $fillable = [
+        'title', 'content', 'category_id'
+    ];
+    
+    //An user can create multiple posts
     public function user(){
         return $this->belongsTo('App\User','user_id');
     }
-     //Muchos post pueden esta perteneciendo a una categoría
+     //Multiple post can be in one category
      public function category(){
         return $this->belongsTo('App\Category','category_id');
     }
