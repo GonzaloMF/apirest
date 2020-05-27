@@ -1,0 +1,330 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "blog-angular/src/app/app.component.html",
+			"settings":
+			{
+				"buffer_size": 2202,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/master-fullstack",
+		"/C/wamp64/www/master-fullstack/blog-angular",
+		"/C/wamp64/www/master-fullstack/blog-angular/src",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/assets"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/post.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/category.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/user.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/angular.json",
+		"/C/wamp64/www/master-fullstack/blog-angular/package.json",
+		"/C/Users/Gonzalo MF/Desktop/$$$$/passportg.jpg",
+		"/C/Users/Gonzalo MF/Desktop/Database.dll",
+		"/C/Users/Gonzalo MF/Desktop/pruebasLogin",
+		"/C/Users/Gonzalo MF/Desktop/crokis.html",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E5_2.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E5_1.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E5.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E5_3.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E4_2.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E4.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E4_1.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E3_MenosFilas.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E3_MenosColumnes.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E2_2.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E2_1.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E2.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E1_3.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E1_2.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E1_1.php",
+		"/C/Users/Gonzalo MF/Desktop/PHP2/x/ExercisiP2E1.php",
+		"/C/Users/Gonzalo MF/Desktop/Project/index.html",
+		"/C/Users/Gonzalo MF/Desktop/Project/files/css/style.css",
+		"/C/Users/Gonzalo MF/Desktop/MarBonaInicio.html",
+		"/C/Users/Gonzalo MF/Desktop/google/style.css",
+		"/C/Users/Gonzalo MF/Desktop/index.html",
+		"/C/Users/GONZAL~1/AppData/Local/Temp/Rar$DRa0.300/Project/files/css/style.css",
+		"/C/Users/Gonzalo MF/Desktop/0.0.3 K - Project/Project/index.html",
+		"/C/Users/Gonzalo MF/Desktop/0.0.3 K - Project/Project/files/css/style.css",
+		"/C/Users/Gonzalo MF/Desktop/0.0.2 K - Project/Project/index.html",
+		"/C/Users/Gonzalo MF/Desktop/0.0.2 K - Project/Project/files/style.css",
+		"/C/Users/Gonzalo MF/Desktop/Exercisi10.php",
+		"/C/Users/Gonzalo MF/Desktop/Exercisi10_1.php",
+		"/C/Users/Gonzalo MF/Desktop/0.0.2 K - Project/Project/asdf.html",
+		"/C/Users/Gonzalo MF/Desktop/Proyecto - Restaurante/cssSlider/cssSlider.exe",
+		"/C/Users/Gonzalo MF/Desktop/Proyecto - Restaurante/index.html",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/Boceto 2/css/icomoon.css",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/Boceto 2/css/blue.css",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/Boceto 2/css/animate.css",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/Boceto 2/css/style.css",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/Boceto 2/css/bootstrap.css",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/Boceto 2/index.html",
+		"/C/Users/Gonzalo MF/Desktop/Ex8.php",
+		"/C/Users/Gonzalo MF/Desktop/Ex8_2.php",
+		"/C/Users/Gonzalo MF/Desktop/Ex8_1.php",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/two-sidebars.html",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/left-sidebar.html",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/right-sidebar.html",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/no-sidebar.html",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/css/style-desktop.css",
+		"/C/Users/Gonzalo MF/Desktop/Página_salesians_profile/index.html",
+		"/C/Users/Gonzalo MF/Desktop/nfl.css",
+		"/C/Users/Gonzalo MF/Desktop/prueba.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"habitants",
+			"habitacions",
+			"habitants",
+			"habitacions",
+			"cont1",
+			"cont",
+			";\">",
+			"#424242",
+			"hover",
+			"menu",
+			"masthead",
+			"-->",
+			"menu-principal-en-container",
+			"current_page_item",
+			"menu-principal-en",
+			"current_page_item",
+			"page-item-7",
+			"page_item",
+			"menu-item-object-page",
+			"menu-item-type-post_type",
+			"site-branding",
+			"sidebar-main",
+			"#232323",
+			"http://www.giardinopollensa.com/",
+			"http://www.giardinopollensa.com/?lang=fr",
+			"http://www.giardinopollensa.com/?lang=es",
+			"col-md-12",
+			"fh5co-content-inner",
+			"http://s2aw20.sdslab.cat/",
+			"row",
+			"#",
+			"600000",
+			"08",
+			"fh5co-tab-wrap",
+			"fh5co-social",
+			"icon-google",
+			"icon-black",
+			"17e7a4",
+			"fh5co-footer",
+			"#fh5co-footer",
+			"fh5co-author",
+			"fh5co-tab-menu",
+			"icon-black",
+			"icon-black-tie",
+			"class=\"icon-black-tie\"",
+			"17e7a4",
+			"#17e7a4",
+			"#",
+			"#17e7a4",
+			"background",
+			"imagenPerfil",
+			"IMG",
+			"2016"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "blog-angular/src/app/app.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "master-fullstack.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
