@@ -12,7 +12,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Categories</a>
@@ -20,10 +20,10 @@
       </ul>
       <ul class="navbar-nav navbar-right">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Login</a>
+          <a class="nav-link" [routerLink]="['/login']">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Register</a>
+          <a class="nav-link" [routerLink]="['/register']">Register</a>
         </li>
       </ul>
       <ul class="navbar-nav navbar-right">
@@ -47,4 +47,10 @@
       </form--->
     </div>
   </nav>
+
+  <!-- CONTENIDO -->
+  <!--login></login>
+  <register></register-->
+  <router-outlet></router-outlet>
+
 </div>  
