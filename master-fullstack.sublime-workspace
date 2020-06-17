@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"col-md",
+				"col-md-5"
+			],
+			[
+				"User",
+				"UserService"
+			],
+			[
+				"H",
+				"HttpClient"
+			],
+			[
+				"p",
+				"page_title"
+			],
+			[
+				"a",
+				"appRoutingProviders"
+			],
+			[
+				"Ro",
+				"RouterModule"
+			],
+			[
 				"margin",
 				"margin-bottom"
 			],
@@ -16,10 +40,19 @@
 	"buffers":
 	[
 		{
-			"file": "blog-angular/src/app/app.component.html",
+			"file": "blog-angular/src/app/components/login/login.component.ts",
 			"settings":
 			{
-				"buffer_size": 2202,
+				"buffer_size": 571,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog-angular/src/app/components/login/login.component.html",
+			"settings":
+			{
+				"buffer_size": 266,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -61,13 +94,31 @@
 		"/C/wamp64/www/master-fullstack/blog-angular",
 		"/C/wamp64/www/master-fullstack/blog-angular/src",
 		"/C/wamp64/www/master-fullstack/blog-angular/src/app",
-		"/C/wamp64/www/master-fullstack/blog-angular/src/assets"
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register/register.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register/register.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/user.services.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/global.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.module.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/user.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register/register.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.routing.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/home/home.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/error/error.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/error/error.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/home/home.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.css",
 		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/post.ts",
 		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/category.ts",
-		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/user.ts",
 		"/C/wamp64/www/master-fullstack/blog-angular/angular.json",
 		"/C/wamp64/www/master-fullstack/blog-angular/package.json",
 		"/C/Users/Gonzalo MF/Desktop/$$$$/passportg.jpg",
@@ -125,7 +176,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -139,6 +190,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"console",
 			"habitants",
 			"habitacions",
 			"habitants",
@@ -214,26 +266,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "blog-angular/src/app/app.component.html",
+					"file": "blog-angular/src/app/components/login/login.component.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2202,
+						"buffer_size": 571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								939,
-								939
+								570,
+								570
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -241,17 +291,45 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blog-angular/src/app/components/login/login.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 36.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -284,7 +362,7 @@
 	"project": "master-fullstack.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -322,7 +400,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 297.0,
+	"side_bar_width": 239.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

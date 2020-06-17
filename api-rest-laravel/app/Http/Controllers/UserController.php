@@ -99,7 +99,7 @@ class UserController extends Controller {
             //Return token or data
             $signup = $jwtauth->signup($params->email, $pwd);
 
-            if (!empty($params->getToken)) {
+            if (!empty($params->gettoken)) {
                 $signup = $jwtauth->signup($params->email, $pwd, true);
             }
         }
